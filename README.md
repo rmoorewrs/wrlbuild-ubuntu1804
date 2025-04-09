@@ -44,8 +44,10 @@ alias lts19shell='export WRL_MIRROR=/path/to/LTS19_mirror; docker run --rm -it -
 - run `lts18shell` (for example)
 - proceed to build your WRL LTS/Yocto platform per normal use, for example:
 ```
-$ git clone --branch WRLINUX_10_18_LTS $WRL_MIRROR/wrlinux-x
-$ ./wrlinux-x/setup.sh --machines=qemux86-64 --distros=wrlinux --accept-eula=yes
+$ mkdir myproj && cd myproj
+$ lts18shell
+wrlbuild@eee4d9ac3be1:/home/rmoore/myproj$ git clone --branch WRLINUX_10_18_LTS $WRL_MIRROR/wrlinux-x
+wrlbuild@eee4d9ac3be1:/home/rmoore/myproj$ ./wrlinux-x/setup.sh --machines=qemux86-64 --distros=wrlinux --accept-eula=yes
 ```
 - exit the shell when you're done
 - invoke the shell whenever you need to build WR Linux
