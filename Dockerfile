@@ -12,7 +12,7 @@ RUN \
     diffstat subversion libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev \
     texinfo gawk gcc gcc-multilib help2man g++ git-core bash cpio \
     python3 python3-pip python3-pexpect debianutils iputils-ping locales \
-    diffutils xz-utils make file screen sudo wget time patch openssh-client curl vim-tiny \
+    diffutils xz-utils make file screen sudo wget time patch openssh-client curl vim-tiny less \
     iproute2 iputils-ping bzip2 \
     uuid-runtime rsync strace sysstat \
     dumb-init  \
